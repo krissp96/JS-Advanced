@@ -52,3 +52,9 @@ function start(url) {
     const data = getData(url) || [];
     data.map(...);
 }
+
+
+
+
+//getElementById() the id needs to be unique 
+//getElementByName() will return collection if there is duplicate of the name and it can have more than one repeating name 
