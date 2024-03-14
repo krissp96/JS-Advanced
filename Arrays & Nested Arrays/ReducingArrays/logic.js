@@ -3,3 +3,5 @@
 const arr = [1, 2, 3, 4];
 const reducer = (accumolator, currentValue) => accumolator + currentValue;
 console.log(arr.reduce(reducer));
+//adding bucket
+console.log(arr.reduce(reducer, 10));
