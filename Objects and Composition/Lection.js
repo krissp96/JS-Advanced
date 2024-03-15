@@ -3,8 +3,8 @@
 const person = {
   name: "Peter",
   age: 27,
-    "last name": "Jackson",  ///adding props
-  position : 'junior developer'
+  "last name": "Jackson", ///adding props
+  position: "junior developer",
 };
 //props
 let { ...workingRecord } = person;
@@ -33,6 +33,3 @@ console.log(person);
 let { age: myAge } = person;
 
 console.log(myAge);
-
-
-88725857
